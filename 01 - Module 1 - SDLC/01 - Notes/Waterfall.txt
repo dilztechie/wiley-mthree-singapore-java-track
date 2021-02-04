@@ -1,0 +1,30 @@
+* Requirement Analysis - Detailed Requirement of the Project gathered from the Client
+* Design - Plan the Technology / Specification, Databases, High-level Technical Details of the Project
+* Built - Coding the Software
+* Test - Testing the Software as per the Specifications given by the Client
+* Deployment - Application to be Deployed in the Respective Environment
+* Maintenance - Updation of the Code at a Later Stage as per Customer Request
+
+When to Use
+** Requirements are not Changing Frequently
+** Application is not Complicated / Big
+** Project is Short
+** Requirement is Clear
+** Environment is Stable
+** Technology / Tools Used are not Dynamic and is Stable
+** Resources are Available and Trained
+
+*** Advantage: Before the Next Phase of Development, Each Phase Must be Completed
+*** Disadvantage: Error Can be Fixed Only During this Phase
+
+*** Advantage: Suited for Smaller Projects where Requirements are Well Defined
+*** Disadvantage: Not Suited for Complex Projects where Requirement Changes Frequently
+
+*** Advantage: Quality Assurance Test [Verification / Validation] Before Completing Each Stage
+*** Disadvantage: Testing Period Comes Quite Late in Development Process
+
+*** Advantage: Eloborate Documentation in Every Phase of SDLC
+*** Disadvantage: Documentation is Time Consuming for Developers / Testers
+
+*** Advantage: No Much of Client Intervention
+*** Disadvantage: Client Valuable Feedback cannot be Included with Onging SDLC Phase

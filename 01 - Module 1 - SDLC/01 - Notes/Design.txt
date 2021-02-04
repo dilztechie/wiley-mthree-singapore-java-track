@@ -1,0 +1,14 @@
+HLD (High Level Design)
+* Brief Description and Name of Each Module
+* An Outline about Functionality of Every Module
+* Interface Relationship and Dependencies Between Modules
+* Database Tables Indentified along with Key Elements
+* Complete Architecture Diagrams along with Technology Details
+
+LLD (Low Level Design)
+* Functional Logic of the Modules
+* Database Tables Structure
+* Detailed Interface
+* Address all Dependency Issues
+* Listing of Error Messages
+* Complete Input & Output of Every Module

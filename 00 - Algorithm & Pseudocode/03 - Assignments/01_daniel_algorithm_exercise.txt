@@ -1,0 +1,99 @@
+*Find the Factorial of a Given Number
+Number? 5
+Step 1: Begin
+Step 2: Accept number
+Step 3: Set partnumber to number minus
+Step 4: Set total to number*partnumber
+Step 5: If partnumber is more than or equal to 1, else go to step 9
+Step 6: Minus 1 from partnumber
+Step 7: Set total to total*partnumber
+Step 8: go to step 5
+Step 9: End
+
+Assessment:
+* Step 4: Set number*partnumber to total (or) Set total=number*partnumber
+* Step 5: goto step if the condition is true is missing
+* Step 5: In the condition "more than 1" is enough; "more than or equal to 1" is not required. Since, anything multiplied by 1 is the number itself. You can save one Iteration of the Loop.
+* Step 7: Set total*partnumber to total (or) Set total=total*partnumber
+** You can further Improvise by reducing the number of Steps
+
+*****************************************************************************************************************************
+
+*Calculate the Sum of all Odd numbers & Sum of all Even Numbers from 1 upto a given number?
+Step 1: Begin
+Step 2: Accept number
+Step 3: Set numbertype = number%2
+Step 4: Check numbertype, if numbertype = 0, go to step 5, else go to step 7
+Step 5: Set sumofeven = ((2 + number)/2)*(number/2)
+Step 6: Set sumofodd = (number/2)^2, then go to step 9
+Step 7: Set sumofeven = ((number + 1)/2)*((number - 1)/2
+Step 8: Set sumofodd = ((number + 1)/2)^2
+Step 9: End
+
+Assessment:
+* Step 6: You have combined 2 Steps together. 
+** It Should be: 
+* Step 6: Set sumofodd = (number/2)^2
+* Step 7: goto step 9
+* Step 6 & Step 8 are Repeated, You can Improvise by reducing One Step here
+** The Logic is Excellent
+
+*****************************************************************************************************************************
+
+* Accept n & r from User
+Calculate n!
+Calculate r!
+Calculate nPr = n! / (n-r)!
+Calculate nCr = n! / ( (n-r)! * r! )
+Step 1: Begin
+Step 2: Accept n 5
+Step 3: Accept r 3
+Step 4: Set counter = 1
+Step 5: Set counter2 = 1
+Step 6: While counter is less than or equal to n go to step 7, else go to step 10
+Step 7: Set counter2 = counter*(counter + 1)
+Step 8: Add 1 to counter
+Step 9: Go to step 6
+Step 10: Set n! = counter2
+Step 11: Set counter = 1
+Step 12: While counter is less than or equal to r go to step 13, else go to step 16
+Step 13: Set counter2 = counter*(counter + 1)
+Step 14: Add 1 to counter
+Step 15: Go to step 12
+Step 16: Set r! = counter2
+Step 17: Set counter = 1
+Step 18: While counter is less than or equal to (n-r) go to step 19, else go to step X
+Step 19: Set counter2 = counter*(counter + 1)
+Step 20: Add 1 to counter
+Step 21: Go to step 18
+Step 22: Set (n-r)! = counter2
+Step 23: Set nPr to n!/(n-r)! 
+Step 24: Set nCr to n!/((n-r)! * r!)
+
+Assessment:
+** The Algorithm Looks Incomplete: Display is Missing
+** The Algorithm is Lengthy: Cut it Short
+
+*****************************************************************************************************************************
+
+* Display the total electricity bill charges of the month depending upon the number of units consumed by the customer as per the following criteria:
+• for the first 100 units @ 5 per unit
+• for next 150 units @ 10 per unit
+• more than 250 units @ 20 per unit
+Also add meter charges of 75 per month to calculate the total electricity bill** I do not understand this
+Step 1: Begin
+Step 2: Accept number
+Step 3: Check if number <= 100, else go to step 6
+Step 4: Set bill = number*100
+Step 5: Go to step 10
+Step 6: Check if number <= 250, else go to step 9
+Step 7: Set bill = 100*5 + (number - 100)*10
+Step 8: Go to step 10
+Step 9: Set bill = 100*5 + 150*10 + (number - 250)*20
+Step 10: Display bill
+Step 11: End
+
+Assessment:
+** Business Logic is Incorrect. Will Explain the Logic in the Class
+
+*****************************************************************************************************************************

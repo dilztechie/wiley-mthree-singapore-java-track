@@ -1,0 +1,15 @@
+Buzzwords
+
+* Simple
+* Object Oriented
+* Robust - Runtime Errors - Exceptions
+* Multithreaded - Run Multiple Processes
+* Platform Independent / Architectural-Neutral - WORA - Write Once, Run Anywhere
+* High Performance
+* Distributed - RMI - Remote Method Invocation
+
+
+IDE
+* Eclipse
+* NetBeans
+* JetBrains

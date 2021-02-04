@@ -1,0 +1,99 @@
+## SDLC
+- Describes a process for planning, creating, testing, and deploying software
+- Process is really important because without one, it's very easy to fall into the following traps:
+    + Poor collaboration/communication among team members
+    + Poor (or no) estimation of time to complete project
+    + Missing or poorly planned features or functionality
+    + Poor or no proritization of features
+    + Inability to add (or remove) members from the project
+    + Scope creep
+    + Software that doesn't actually meet the needs of users
+- Generally the process involves the following steps:
+    + Requirements gathering
+    + Design
+    + Development
+    + Testing
+    + Bug fixing
+    + Deployment
+## Agile vs. Waterfall Methodologies
+#### Waterfall
+- Follows a step by step process where each step waits on the previous one
+- Design and develop all features of an application in one fell swoop
+- **Advantages**:
+    + Clearly defines scope of project
+    + Keeps clients and company on the same page, this is what the end result looks like
+    + Documentation is potentially easier, allowing newer entrants to get up to speed quickly
+- **Disadvantages**:
+    + Slow
+    + Doesn't adapt well to change
+    + Doesn't handle user feedback well
+    + Can drown in paperwork and bureaucracy
+#### Agile
+- Built to adapt to change
+- Getting to MVP is the goal
+- Relies on tight feedback loops
+- Experimentation is good, as long as we measure the results
+- Highly analytical
+- **Advantages**:
+    + Rapid iteration
+    + Built to adapt to change
+    + Allows us to catch bugs during the development cycle and not just at the end
+    + Provides channels for user feedback to be integrated into future iterations
+- **Disadvantages**:
+    + Deliverables are constantly changing
+    + Bugs can be more common as rapid iteration yields unexpected results
+    + Documentation is frequently poor because requirements are changing all the time
+## Agile Subsets
+#### Kanban
+- Kanban is about improving workflow, finding bottlenecks, inefficiencies, other problems
+- Implemented by Toyota in the 1940's
+- Kanban recommends moving the pieces of work through a "board" of different stages, notably
+- Allows us to:
+ * Visualize the work flow - Making the work visible—along with blockers, bottlenecks and queues—instantly leads to increased communication and collaboration
+ * Limit the WIP (Work in progress) - You can avoid problems caused by task switching and reduce the need to constantly reprioritize items
+ * Focus on the flow - leads to culture of continuous improvements, any potential problems can be seen before it's too late
+> Using our development pipeline as an example: if the testers are only able to test 5 features per week whereas the developers and analysts have the capacity to produce 10 features per week, the throughput of the pipeline as a whole will only be 5 features per week because the testers are acting as a bottleneck.
+> If the analysts and developers aren't aware that the testers are the bottleneck, then a backlog of work will begin to pile up in front of the testers.
+> The effect is that lead times go up. And, like warehouse stock, work sitting in the pipeline ties up investment, creates distance from the market, and drops in value as time goes by.
+> Inevitably, quality suffers. To keep up, the testers start to cut corners. The resulting bugs released into production cause problems for the users and waste future pipeline capacity.
+> If, on the other hand, we knew where the bottleneck was, we could redeploy resources to help relieve it. For example, the analysts could help with testing and the developers could work on test automation.
+#### Scrum
+- Scrum is a subset of Agile, it's an "iterative" and "incremental" software development methodology for managing product development
+- Scrum recommends breaking things into small pieces of work, and timeboxing our development cycles
+- Scrum sets roles like:
+ * Product Owner (defines product vision, priorities, accepts & rejects work performed)
+ * Team (implements product)
+ * Scrum Master (improves process, sets sprint duration and removes impediments)
+- Scrum process:
+ 1. Create a product backlog (wishlist)
+ 2. Sprint planning, what will be in the current sprint?
+ 3. Sprint/development (typically 2-4 weeks)
+  - Meet daily for scrum meetings, organized by the scrum master
+ 4. Sprint review - Review the work done with the product owner
+ 5. Sprint retrospective - what worked, what didn't about the process
+ 6. Ship and repeat
+- What is a scrum meeting/standup?
+ + When does it happen?
+   - Every morning for 15 min
+ + What is the structure?
+    1. What did I accomplish yesterday?
+    2. What will I work on today?
+    3. What impedes me or is blocking my progress?
+ + What is the point?
+- Longer term plans
+ + Release plan - Typically requires multiple sprints
+ + Product roadmap
+#### User Stories
+- A user story is a very high-level definition of a requirement, containing just enough information so that the developers can produce a reasonable estimate of the effort to implement it
+- Keep user stories slim and high level
+- Anyone is able to write it
+- Examples:
+ * Students can purchase monthly parking passes online.
+ * Parking passes can be paid via credit cards.
+ * Parking passes can be paid via PayPal.
+ * Professors can input student marks.
+ * Students can obtain their current seminar schedule.
+ * Students can order official transcripts.
+ * Students can only enroll in seminars for which they have prerequisites.
+- Assign points based on how large the tasks are relative to each other, don't focus on the details
+- Epic stories should be broken down into smaller ones

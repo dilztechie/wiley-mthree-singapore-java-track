@@ -1,0 +1,20 @@
+* Requirement Analysis
+* Design
+* Code
+* Testing
+
+When to Use?
+** Requirements of the System are Clearly Understood
+** Demand for an Early Release of the Product
+** Software Engineering Team are not very Skilled or Trained
+** High-Risk Features and Goals are Involved
+
+*** Advantage: Software will be Generated Quickly during the SDLC
+*** Disadvantage: It Requires Very Good Planning / Designing
+
+*** Advantage: Flexible and Less Expensive
+*** Disadvantage: Problems might Cause Due to System Architecture / Not All Requirements are Met
+
+*** Advantage: Customer can Respond to Each Iterative
+
+*** Advantage: Errors are Easily Identified

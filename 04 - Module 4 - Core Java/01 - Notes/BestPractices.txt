@@ -1,0 +1,10 @@
+Class Name - Camel Case
+* First Letter of Every Word in the Class Name Should be Capital
+* No Spaces Between the Words
+eg. Welcome, Employee, Product, SalaryReport, AdvancedMobileTechnology
+Java API - String, StringBuilder, DriverManager, ClassNotFoundException
+
+DataMembers / Variables
+* Should always Start with smallCase
+* Second Word Onwards First Letter should be Capital
+eg. number, name, averageMarks, totalMarks, houseRentAllowance, dearnessAllowance, professionalTax, taxDeductedAtSource

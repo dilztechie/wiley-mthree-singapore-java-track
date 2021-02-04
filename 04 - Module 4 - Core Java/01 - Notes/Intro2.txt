@@ -1,0 +1,29 @@
+I/O File Stream
+
+Utilities Collections
+
+Applets
+
+Thread
+
+Exception Handling
+
+Java SE - Java Standard Edition - API
+
+Java EE - Java Enterprise Edition - API
+
+Java ME - Java Mobile / Micro Edition - API
+
+Java FX - Rich Internet Applications
+
+
+
+Applet vs. Application
+
+Sandbox
+
+JDK - Java Development Kit - Software Development Environment - Collection of Tools / Libraries require for Developing Java Applications
+
+JRE - Java Runtime Environment - Software Layer that runs on top of Computer's OS & Provides all the Class Libraries & other Resources
+
+JVM - Java Virtual Machine - Engine provides runtime environment drives java application JVM is a part of JRE

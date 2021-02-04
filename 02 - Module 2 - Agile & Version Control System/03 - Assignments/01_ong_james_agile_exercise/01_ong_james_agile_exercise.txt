@@ -1,0 +1,25 @@
+car rental app
+Product backlog
+As a customer, I would like to view all cars available on the app so i can make a booking
+As a customer, I would like to view all the price of the cars
+As a customer, I would like to set the duration of my booking
+As a staff, I would like to set the price/duration of the car
+As a staff, I would like to verify customers and approve customers.
+As a cusomter, I would like to compare cars to choose a better a car
+As a customer, I would like to see if there are promos or discounts
+As a cusotmer, i WOULd like to have membership points
+As a staff, I would like to add membership rewards
+As a staff, I would like to know the rental frequency of customers to know when is the peak season.
+JIRA BOARD.
+Sprint 1 (for mvp)
+As a customer, I would like to view all cars available on the app so i can make a booking
+As a customer, I would like to view all the price of the cars
+As a customer, I would like to set the duration of my booking
+As a staff, I would like to set the price/duration of the car
+As a staff, I would like to verify customers and approve customers.
+Sprint 2
+As a cusomter, I would like to compare cars to choose a better a car
+As a customer, I would like to see if there are promos or discounts
+As a cusotmer, i WOULd like to have membership points
+As a staff, I would like to add membership rewards
+As a staff, I would like to know the rental frequency of customers to know when is the peak season.

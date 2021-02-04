@@ -1,0 +1,24 @@
+
+
+	* Collect Information on the Product - Client, Similar Existing Product, Platform Indpendent
+	* Market Research - Users, Pricing, Scalability, Targeted Users
+	* Client's Business Goal - Expectations, Vision of that App
+	* Quality of App
+	* Initial Data - Laws & Protocols, Client's Requirement of the Product, Scope of the Product, End Product, Budget & Deadline
+	* Preparing & Approving Project Documentation - Size, Urgency, Difficulty, Budget, Goals
+	* Team of Development Experts - Technology Stack, Timelines, Costs, Risk Management
+
+	* Sales Manager - Financial Side of the Project, Budget based on Client's Info, Timelines, Product Components, Number of the People for Development (Team Members), Experience ::: Commercial Offer
+	* Project Manager - Discuss Future of the Product, Goals, Functionality, Role it plays in reaching Business Goals, Preparing the Technical Documentation
+	* Technical Expert - Tech Lead, Team Lead, Back-end Developer, Front-end Developer, QA Specialist
+	* Business Analyst - Analysis of the Market, Project Estimation, Writing the Offer - Budget
+	* Designer - Creative and Visual Part of the Product
+
+	** Estimation of Product
+	** Brand Identity Concept
+	** Design & Style Concepts of the Future Product
+	** Prototype of the Product
+	** SRS
+	** Architecture Design
+	** Product Version Development Plan
+	** Final Offer of the Product

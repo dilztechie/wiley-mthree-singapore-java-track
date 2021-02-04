@@ -1,0 +1,88 @@
+Procedural - BASIC, COBOL, FORTRAN, PASCAL
+
+Top to Bottom Approach
+Interpreter
+Line 1
+...
+...
+...
+...
+...
+Line n
+
+C
+Functions / Modules
+* Factorial -> n <- n!
+* nPr = n! / (n-r)!
+* nCr = n! / ( (n-r)! * r! )
+
+Data Types -
+int number = 12;
+float average = 26.15;
+double salary = 31987.34;
+
+int number = 12, 26; X
+
+Arrays
+
+int[] numbers = { 12, 26, 15, 8 };
+
+int[] numbers = { 12.26, 15, "Dilip" }; X
+
+struct employee {
+	int number;
+	float average;
+	double salary;
+	// Variables - Data Members are Hidden
+	// Functions - No Methods are Hidden X
+};
+
+struct employee employee1;
+struct employee employee2;
+struct employee employee3;
+
+employee1.number = 12;
+employee1.average = 12.26;
+employee1.salary = 453242.43;
+
+
+Structured
+
+class employee {
+	int number;
+	char *name;
+	double salary;
+	
+	double getNetSalary() {
+		return salary * 12;
+	}
+};
+
+employee emp;
+emp.number
+emp.name
+emp.salary
+emp.getNetSalary()
+
+"C with Classes"
+
+Object Oriented Programming Language [OOP]
+
+A
+B
+BCPL
+CPL
+C
+
+C++
+
+
+Java 
+* Syntax of C
+* Concept of OOP
+
+C++
+
+OOP
+* Encapsulation - Data Hiding - Declare & Define the Variables / Functions in an Entity Called "Class"
+* Instantiation - Create an Instance [Object] of the Class

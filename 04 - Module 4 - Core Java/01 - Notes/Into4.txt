@@ -1,0 +1,38 @@
+Data Types
+----------
+C
+-
+char - 1 Byte = 8 Bits = 1 Character -> 0-255 : ASCII Code [American Standard Code for Information & Interchange]
+int - 2 Bytes = 16 Bits = Integer Value -32767 to 32767
+float - 4 Bytes = 32 Bites = Real Value with Decimal Places
+double - 8 Bytes = 64 Bits = Double of Float
+
+Marks of the Student 0-100
+* Will not have a Negative Number
+* Will not exceed 100
+
+Memory Management
+
+C Data Modifiers
+----------------
+Change the Sign
+1. signed - Both +ve & -ve
+2. unsigned - Only +ve int: 0 - 65535
+
+Change the Size
+3. short - /2 - 2Bytes/2 = 1Byte
+4. long - x2 - 2Bytex2 = 4Bytes
+
+
+unsigned short int marks;
+
+Java
+-----
+* byte - 1 Byte - Read File Contents
+* char - 2 Bytes - 0 to 65535 : UNICODE
+* short - 2 Bytes - Integer Value
+* int - 4 Bytes - Integer Value
+* long - 8 Bytes - Integer Value
+* float - 8 Bytes
+* double - 16 Bytes
+* boolean - true or false

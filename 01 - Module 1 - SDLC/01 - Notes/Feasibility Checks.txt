@@ -1,0 +1,5 @@
+* Economic - Can we Complete the Project within the Budget or Not?
+* Legal - Can we Handle the Project as Cyber Law and other Regularity Framework / Complaince?
+* Operation - Can we Create Operations which is Expected by the Client?
+* Technical - Check Whether the Current System can Support the Developed Software
+* Schedule - Project can be Completed within the given Schedule or Not?

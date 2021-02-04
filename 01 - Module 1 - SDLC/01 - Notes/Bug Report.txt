@@ -1,0 +1,12 @@
+* Defect_ID - Unique Identification
+* Defect Description - Detailed Description about the Module in the Defect was Found
+* Version - Version of the App where the Defect was Found
+* Steps - Detailed Steps with ScreenShots
+* Date Raised - Date when Defect was Raised
+* Reference - Reference to the Documents
+* Detected By - Name/ID of the Tester
+* Status - Which Stage is the Bug Resolved
+* Fixed By - Name/ID of the Developer
+* Date Closed - Date when Defect was Resolved & Closed
+* Severity - Impact of the Defect
+* Priority - Priority of Resolving the Defect

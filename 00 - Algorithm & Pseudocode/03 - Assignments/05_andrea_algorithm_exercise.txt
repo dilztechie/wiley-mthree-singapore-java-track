@@ -1,0 +1,74 @@
+* Find the Factorial of a Given Number
+Number? 5
+5! = 120
+
+Step 1: start
+Step 2: accept number 
+Step 3: set factorial = 1, counter = 1
+Step 4: while counter <= number, go to step 5. Else go to step 8
+Step 5: set factorial = factorial * counter
+Step 6: Add 1 to counter
+Step 7: go to step 4
+Step 8: display factorial
+Step 9: end
+
+
+* Calculate the Sum of all Odd Numbers & Sum of all Even Numbers from 1 upto a number given
+Number? 100
+Sum of Odd Numbers = 1+3+5+...+95+97+99
+Sum of Even Numbers = 2+4+6+...+96+98+100
+
+step 1: start
+step 2: accept number
+step 3: set counter = 1, evenCount = 0, oddCount = 0
+step 4: while counter <= number, go to step 5 else go to step 11
+step 5: if number%2 = 0 go to step 6 else go to step 8
+step 6: add 1 to evenCount
+step 7: add 1 to counter
+step 8: add 1 to oddCount
+step 9: add 1 to counter
+step 10: go to step 4
+step 11: display evenCount, oddCount
+step 12: end
+
+
+* Accept n & r from User
+Calculate n!
+Calculate r!
+Calculate nPr = n! / (n-r)!
+Calculate nCr = n! / ( (n-r)! * r! )
+
+Step 1: start
+Step 2: accept numbers n, r
+Step 3: set nFactorial = 1, nCounter = 1
+Step 4: while nCounter <= n, go to step 5. Else go to step 8
+Step 5: set nFactorial = nFactorial * nCounter
+Step 6: Add 1 to nCounter
+Step 7: go to step 4
+Step 8: display nFactorial
+Step 9: set rFactorial = 1, rCounter = 1
+step 10: while rCoutner <= r, go to step 11. else go to step 14
+step 11: set rFactorial = rFactorial * rCounter
+step 12: add 1 to rCounter
+step 13: go to step 10
+step 14: display rFactorial
+step 15: end
+
+
+* Display the total electricity bill charges of the month depending upon the number of units consumed by the customer as per the following criteria:
+• for the first 100 units @ 5 per unit
+• for next 150 units @ 10 per unit
+• more than 250 units @ 20 per unit
+Also add meter charges of 75 per month to calculate the total electricity bill
+
+step 1: start
+step 2: accept number
+step 3: if number <= 100 go to step 4 else go to step 6
+step 4: set a = (number*5) + 75
+step 5: display a
+step 6: if number <= 250 go to step 7 else go to step 9
+step 7: set b = (number - 100)
+step 8: display (b*10) + 5*100 + 75
+step 9: set c = (number - 250)
+step 10: display (c*20) + 150*10 + 5*100 + 75
+step 11: end
