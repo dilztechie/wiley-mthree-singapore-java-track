@@ -1,4 +1,4 @@
-*Find the Factorial of a Given Number
+* Find the Factorial of a Given Number
 Number? 5
 Step 1: Begin
 Step 2: Accept number
@@ -19,7 +19,7 @@ Assessment:
 
 *****************************************************************************************************************************
 
-*Calculate the Sum of all Odd numbers & Sum of all Even Numbers from 1 upto a given number?
+* Calculate the Sum of all Odd numbers & Sum of all Even Numbers from 1 upto a given number?
 Step 1: Begin
 Step 2: Accept number
 Step 3: Set numbertype = number%2
@@ -94,6 +94,6 @@ Step 10: Display bill
 Step 11: End
 
 Assessment:
-** Business Logic is Incorrect. Will Explain the Logic in the Class
+** Business Logic is Incorrect.
 
 *****************************************************************************************************************************

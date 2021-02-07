@@ -12,7 +12,7 @@ Step 7: Add 1 to counter andd go to step 5
 Step 8: Display factorial
 Step 9: End
 
-
+**********************************************************************************************************************************
 
 * Calculate the Sum of all Odd Numbers & Sum of all Even Numbers from 1 upto a number given
 Number? 100
@@ -30,6 +30,12 @@ Step 8: Set evenTotal = evenTotal + counter
 Step 9: Display oddTotal and evenTotal
 Step 10: End
 
+Assessment:
+** Algorithm Steps are Wrong. "counter is odd" is not a Logic; use "modulos (%)" Operator
+** Counter not Incremented
+** There is No Loop
+
+*********************************************************************************************************************************
 
 * Accept n & r from User
 Calculate n!
@@ -37,9 +43,10 @@ Calculate r!
 Calculate nPr = n! / (n-r)!
 Calculate nCr = n! / ( (n-r)! * r! )
 
+Assessment:
+** Exercise Not Done
 
-
-
+**********************************************************************************************************************************
 
 * Display the total electricity bill charges of the month depending upon the number of units consumed by the customer as per the following criteria:
 • for the first 100 units @ 5 per unit
@@ -47,14 +54,16 @@ Calculate nCr = n! / ( (n-r)! * r! )
 • more than 250 units @ 20 per unit
 Also add meter charges of 75 per month to calculate the total electricity bill
 
-
 Step 1: Begin
 Step 2: Accept number
 Step 3: Set Total Charge = 75
-Step 4: Set Total Billl = 0
+Step 4: Set Total Bill = 0
 Step 5: if number more than 100, TotalBill = 75 + 100*5, number = number - 100
 Step 6: If number more than 150, TotalBill = TotalBill + 150 * 10, number = number - 150
 Step 7: TotalBill = TotalBill + number * 20
 
+Assessment:
+** No Multiple Assignments Allowed in Single Step with Commas (,) in a if Statement
+** Algorithm Incomplete
 
-
+**********************************************************************************************************************************

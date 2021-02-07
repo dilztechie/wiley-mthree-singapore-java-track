@@ -1,41 +1,3 @@
-* To display the biggest of 3 numbers
-Step 1 : Begin
-Step 2: Accept First Number
-Step 3: Accept Second Number
-Step 4: Compare First Number and Second Number, If First Number is equal to Second Number then Step 5 else Step 7
-Step 5: Display 'Both numbers are equal'
-Step 6: Goto Step 12
-Step 7: Display 'Both numbers are not equal'
-Step 8: Compare First Number and Second Number, If First Number is Greater than Second Number Step 9 else Step 11
-Step 9: Display 'First number is greater than Second number'
-Step 10: Goto Step 12
-Step 11: Display 'First number is smaller than Second number'
-Step 12: End
-* Calculate the Grade of a Student
-Step 1 : Begin
-Step 2: Accept Number
-Step 3: If Number >=75 and Number <=100, then Step 4 else Step 6
-Step 4: Display Grade A
-Step 5: Goto Step 13
-Step 6: If Number >= 55 and Number <= 74, then Step 7 else Step 9
-Step 7: Display Grade B
-Step 8: Goto Step 13
-Step 9: If Number >= 35 and Number <= 54, then Step 10 else Step 12
-Step 10: Display Grade C
-Step 11: Goto Step 13
-Step 12: Display Grade F
-Step 13: End
-* Display the Multiples of the Number Accepted from User Number
-Step 1: Begin
-Step 2: Accept Number
-Step 3: Set counter = 1 
-Step 4: While counter is less than or equal to 10 Goto Step 5 else Goto Step 10
-Step 5: Set Multiple = 1
-Step 6: Compute Multiple = Number * Counter
-Step 7: Display 'Number x Counter = Multiple'
-Step 8: Add 1 to the Counter
-Step 9: Goto Step 4
-Step 10: End
 * Find the Factorial of a Given Number
 Step 1: Begin
 Step 2: Accept Number
@@ -45,8 +7,11 @@ Step 5: While Counter is more than 1 Goto Step 6 else Goto Step 9
 Step 6: Minus 1 from Counter
 Step 7: Set Total = Total * Counter
 Step 8: Goto Step 5
-Step 9: Display Number"!" "=" Total  
+Step 9: Display Number "!= " Total  
 Step 10: End
+
+**********************************************************************************************************************************
+
 * Calculate the Sum of all Odd Numbers & Sum of all Even Numbers from 1 upto a number given
 Step 1: Begin
 Step 2: Accept Number
@@ -64,7 +29,15 @@ Step 13: Goto Step 10
 Step 14: Display Sum of Odd Numbers "=" TotalOdd
 Step 15: Display Sum of Even Numbers "=" TotalEven
 Step 16: End
-*nPr and nCr
+
+Assessment:
+* Step 3: Don't Combine 2 Assignments using "and"
+* Step 3, Step 4 & Step 5 can be Combined to Single Step
+** Rest of the Steps are Unnecessarily Long, Can be Shortened. Improvise the Business Logic.
+
+**********************************************************************************************************************************
+
+* nPr and nCr
 Step 1: Begin
 Step 2: Accept number1 and number2
 Step 3: Set n = number1
@@ -82,7 +55,12 @@ Step 7: Display Factorial(r)
 Step 8: Display nPr "=" Factorial(n)/Factorial(n-r)
 Step 9: Display nCr "=" Factorial(n)/( Factorial(n-r)*Factorial(r) )
 Step 10: End
-        
+
+Assessment:
+** Step 2: You can direct Accept n & r, so that Step 3 & Step 4 are not Required
+
+*********************************************************************************************************************************
+
 * Display the total electricity bill charges of the month depending upon the number of units consumed by the customer as per the following criteria:
 Step 1: Begin
 Step 2: Accept number
@@ -94,3 +72,8 @@ Step 7: Display Total Charge = 75 + 100*5 + (number-100)*10
 Step 8: While number is less than or equal to 100, Goto Step 7 else Goto Step
 Step 9: Display Total Charge = 75 + number*5 
 Step 10: End
+
+Assessment:
+** Step 3 is not Necessary as you are adding 75 in Steps 5, 7, 9
+
+**********************************************************************************************************************************
