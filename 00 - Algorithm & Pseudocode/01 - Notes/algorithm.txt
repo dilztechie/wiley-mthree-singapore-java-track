@@ -1,0 +1,57 @@
+Algorithms: Any Computing Problem can be Solved by Executing a Series of Actions in a Specific Order
+
+A Procedure for Solving a Problem in Terms of
+1. the "actions" to Execute ans
+2. the "order" in which these Actions Execute
+is called an "Algorithm"
+
+
+Pseudocode: An Informal Language that helps Programmers Develop Algorithm without having Syntax of any Programming Language
+
+1. simple if
+
+if student's grade is greater than or equal to 60
+	Print "Passed"
+
+
+2. if..else
+
+if student's grade is greater than or equal to 60
+	Print "Passed"
+else
+	Print "Failed"
+
+
+3. Nested if..else
+
+if student's grade is greater than or equal to 90
+	Print "A"
+else
+	if student's grade is greater than or equal to 80
+		Print "B"
+	else
+		if student's grade is greater than or equal to 70
+			Print "C"
+		else
+			if student's grade is greater than or equal to 60
+				Print "D"
+			else
+				Print "F"
+
+
+
+* Write a Algorithm / Pseudocode to Accept 10 Student's Grade and Display Average of all Grades
+
+Step 1: Begin
+Step 2: Set total to zero
+Step 3: Set counter to one
+Step 4: While counter is less than or equal to ten
+Step 5: Begin
+Step 6:		Prompt the user for grade
+Step 7:		Add grade to total
+Step 8:		Add one to counter
+Step 9: End
+Step 10: Set average to total divided by ten
+Step 11: Print "average=" average
+Step 12: End
+
