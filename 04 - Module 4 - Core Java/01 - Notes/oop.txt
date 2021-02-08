@@ -1,0 +1,29 @@
+* Encapsulation = Data Hiding -> You Hide the Members & Methods in a Entity called as "Class"
+	* Members are Class Variables
+	* Methods are Class Functions
+* Instantiation = Creating an Instance of the Class -> Creating an Object of the Class
+
+* Constructor = Allows you to Assign the Values to the Members of the Class during Instantiation
+	* Looks like a Method
+	* className & constructorName should be Same
+
+* this => implicit Object of the same Class
+
+* static Block of Code will always be Initialized and Executed by JVM at the Begining of the Execution of the Main Program
+* To Access static Members & Methods you don't need to Instantiate the Class, rather Access them by the className
+* Static has some Restrictions:
+** They can only Directly Call other static Methods of their Class
+** They can only Directly Access static members of their Class
+** They cannot refer to "this" or "super" in any manner
+
+* Polymorphism -> Many Forms
+** Constructor Overloading - JVM will match the number of Arguments and Assign the Constructor
+** Method Overloading - same Concept as Constructor Overloading
+
+* Access Specifier -> Visibility Control
+** default: when no access specifier
+** private: visible only to it's class itself
+*** Every private Members should have two Methods Each -> setters & getters
+
+* Inner Classes
+** Outer Class Members & Methods can be Accessed Directly inside Inner Class, not Vice-versa
