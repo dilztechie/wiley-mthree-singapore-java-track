@@ -1,0 +1,37 @@
+Exercises:
+
+1. 
+* Create a Class Employee with id, name, age, designation, salary as the private members of the Class
+* Create Methods in the Class for the following members
+** houseRentAllowance => 40% of the salary
+** dearnessAllowance => 20% of the salary
+** travellingAllowance => 10% of the salary
+** Calculate the grossSalary of the Employee
+** Calculate the netSalary of the Employee
+* Write a main Class for Accepting Employee Details from the User & Display his/her Salary Slip
+
+2.
+* Create a Class DateTime with date, month, year, hour, minute, seconds as the members of the Class
+* Create shortDate, longDate, shortTime, longTime Methods to Display as:
+	shortDate -> dd-mon
+	longDate -> dd-mon-yyyy
+	shortTime -> hh:mm
+	longTime -> hh:mm:ss
+* Create Overloading Constructors for 
+** date, month
+** date, month, year
+** hour
+** hour, minute
+** hour, minute, seconds
+
+DateTime()
+
+DateTime(int date, int month)
+
+DateTime(int date, int month, int year)
+
+DateTime(int date, int month, int year, int hour)
+
+DateTime(int date, int month, int year, int hour, int minute)
+
+DateTime(int date, int month, int year, int hour, int minute, int second)
