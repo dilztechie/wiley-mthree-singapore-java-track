@@ -1,0 +1,22 @@
+* Garbage Collection
+* Command Line Arguments
+* Runtime Polymorphism
+* instanceof Operator
+* StringBuffer
+* StringBuilder
+* StringTokenizer
+
+
+
+src Folder: Source Code (.java)
+javac FileName.java
+
+bin Folder: Binary Code (.class)
+FileName.class
+java FileName
+
+javac MyAddress.java
+java MyAddress
+
+javac & java Applications in bin Folder of your Java Installation Directory
+Your bin Folder should be Included in PATH of your System

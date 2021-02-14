@@ -1,0 +1,31 @@
+Student: id, name, 
+address -> Address: place, city, country
+contact
+
+Every Student HAS a Address
+Has-a Relation
+Aggregation
+
+
+Inheritance
+
+Super Class: Parent
+Object of Super Class can Access the Members & Methods of the Super Class
+Sub Class: Child
+Object of the Sub Class can Access the Members & Methods of the Sub Class as well as Super Class
+
+When you call a Constructor of a Sub Class -> First the Constructor of the Super Class is Executed
+
+Polymorphism:
+1. Constructor / Method Overloading: Various Forms of Constructors / Methods within the Same Standalone Class
+2. Constructor / Method Overriding: Various Forms of Constructors / Methods which Matches the Parent Class -> Inheritance
+
+One Parent Class can have more than One Child Class
+Multiple Inheritance is not Possible in Java
+
+Multilevel Inheritance is Possible in Java
+
+* Parent Class: BasicPhone
+* Child Class to BasicPhone & Parent Class to SmartPhone: IntermediatePhone extends BasicPhone
+* Child Class to IntermediatePhone: SmartPhone extends IntermediatePhone
+* Main Program -> Nokia / Samsung / Apple / LG / OnePlus
