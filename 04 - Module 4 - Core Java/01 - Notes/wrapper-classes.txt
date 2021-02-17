@@ -1,0 +1,17 @@
+Wrapper Classes
+
+Byte
+Short
+Integer
+Long
+Float
+Double
+Boolean
+Character
+
+static methods which converts Objects to pure Primitive Data Types
+
+Byte.parseByte -> byte
+Short.parseShort -> short
+Integer.parseInt -> int
+Long.parseLong -> long
