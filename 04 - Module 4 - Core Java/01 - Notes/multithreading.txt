@@ -1,0 +1,25 @@
+Multitasking = Having more than One Task / Application
+eg. Work with Word, Facebook, WhatsApp, Instagram, Powerpoint, Eclipse simultaneously
+
+Multithreading = Having more than One Thread / Process in a Single Task / Application
+eg. Within Word, Send some pages to Print, simultaneously do the Spelling Check
+
+.sleep method takes the process to sleep
+wakeup anytime after the milliseconds provided
+depending on cpu idle time
+
+every thread will have priority
+
+MIN_PRIORITY = 1
+NORMAL_PRIORITY = 5 (default)
+MAX_PRIORITY = 10
+you can choose any number between 1 - 10
+
+if your main Thread finishes before the Child Threads
+your Child Threads go to Orphan Stage
+
+In a Synchronized Block
+It creates a Semaphore / Monitor
+when one thread enters the Semaphore
+other threads wait for that thread to exit
+once it exits the other thread enters
