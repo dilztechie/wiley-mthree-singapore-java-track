@@ -6,16 +6,21 @@ public class Student {
 	private String gender;
 	private Address address;
 	
-	private java.util.List<String> genders;
+	private static String[] strGenders = {"male", "female"};
+	// private static java.util.List<String> genders = new java.util.ArrayList<>(java.util.Arrays.asList(strGenders));
 	private static long idCount;
 	
-	public static java.util.List<Student> students;
+	public static java.util.Map<Long, Student> students = new java.util.TreeMap<>();
 
 	public void setGender(String gender) throws org.wiley.sms.exception.GenderNotFoundException {
-		genders = new java.util.ArrayList<>();
-		genders.add("male");
-		genders.add("female");
-		if(java.util.Collections.binarySearch(genders, gender) >= 0) {
+		boolean found = false;
+		for(String strGender : strGenders) {
+			if(strGender.equalsIgnoreCase(gender)) {
+				found = true;
+				break;
+			}
+		}
+		if(found) { // if(java.util.Collections.binarySearch(genders, gender) >= 0) {
 			this.gender = gender;
 		} else {
 			throw new org.wiley.sms.exception.GenderNotFoundException("Gender " + gender + " not found");
@@ -28,7 +33,6 @@ public class Student {
 	
 	public Student(String name, String gender, Address address) 
 			throws org.wiley.sms.exception.GenderNotFoundException {
-		students = new java.util.ArrayList<>();
 		this.id = ++idCount;
 		this.name = name;
 		setGender(gender);
