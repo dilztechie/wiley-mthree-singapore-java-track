@@ -1,0 +1,22 @@
+* Open SQL Command Line
+Connect to Oracle:
+Enter username: / AS SYSDBA
+
+Create user:
+SQL> CREATE USER username IDENTIFIED BY password;
+User created.
+
+Grant access to user:
+SQL> GRANT DBA TO username;
+Grant succeeded.
+
+Save transactions:
+SQL> COMMIT;
+Commit complete.
+
+* Close the SQL Command Line
+
+* Next time onwards Open SQL Command Line
+Connect to Oracle:
+Enter username: username/password
+SQL>
