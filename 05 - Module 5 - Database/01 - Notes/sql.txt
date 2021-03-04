@@ -1,0 +1,121 @@
+DATA is a information stored.
+
+DATABASE is a organized collection of Data.
+
+DBMS [Database Management System] provides mechanisms for storing, organizing, retrieving, and modifying Data for
+many users.
+
+RDBMS - Relational DBMS.
+
+OORDBMS - Object Oriented RDBMS.
+
+SQL [Structured Query Language] pronounced as 'Seequel'- Common language for all RDBMS.
+* Its an International Standard Language to perform Queries, also known as "a SQL Statement".
+* SQL is not case-sensitive
+** but, whatever you are inserting in ' ' is case-sensitive
+
+JDBC - Java DataBase Connectivity
+API to connect your Java Code with DB
+
+SQL COMMANDS:
+
+1. To view all tables in the database
+SQL> SELECT * FROM tab;
+
+2. To create a table
+SQL> CREATE TABLE tablename (
+	column1 datatype(size),
+	column2 datatype(size), ...
+     );
+
+datatype:
+int - integer - number(38)
+number(5) - integer number with 5 digits
+// char(5) - 5 character length
+// varchar(5) - variable character length of 5 characters
+varchar2(5) - VER 2.0 of varchar
+number(12, 2) - floating point value with 9 digits before decimal places & 2 digits after decimal places
+date - date value - Format 'DD-MON-YYYY' - '01-JAN-2000'
+boolean - boolean data type
+
+3. To view the structure of the table
+SQL> DESC tablename
+
+4. To modify the structure of the table
+SQL> ALTER TABLE tablename MODIFY (
+	columnToModify datatype(size), ...
+     );
+
+5. Insert single row values in the table
+SQL> INSERT INTO tablename VALUES (values saperated by ,);
+
+6. Display all rows in the table
+SQL> SELECT * FROM tablename;
+
+7. Insert multiple rows [bulk data] in the table
+SQL> INSERT ALL
+	INTO tablename VALUES (values saperated by ,)
+	INTO tablename VALUES (values saperated by ,) ...
+     SELECT * FROM Dual;
+here, DUAL is a Dummy Table used for Syntaxes of SQL
+
+8. Add a column to the table
+SQL> ALTER TABLE tablename ADD (
+	columnToAdd datatype(size), ...
+     );
+
+9. Update the table with contents
+SQL> UPDATE tablename
+     SET columnname = value
+     WHERE condition;
+** If you don't put the WHERE condition all the rows of that column will be updated with the value given
+
+Constraints:
+a. DEFAULT value will be inserted when no value is inserted by the user for that row
+
+10. Insert specific columns rather than all columns
+SQL> INSERT INTO
+     (columnnames to be inserted saperated by ,)
+     VALUES
+     (values saperated by ,);
+
+11. Remove a column from the table
+SQL> ALTER TABLE tablename DROP COLUMN columnname;
+
+12. Remove a row from the table
+SQL> DELETE FROM tablename WHERE condition;
+** If you don't give the condition all rows will be deleted
+
+13. Remove the entire table
+SQL> DROP TABLE tablename;
+
+Constraint b. PRIMARY KEY is a Unique Key which value cannot be Duplicated nor NULL
+
+14. Save the Changes
+SQL> COMMIT;
+
+15. Find Max of any Column 
+SQL> SELECT MAX(columnname) FROM tablename
+
+Constraint c. CHECK
+CONSTRAINT chk_gender CHECK gender IN ('M', 'F')
+
+Constraint d. FOREIGN KEY
+SQL> CREATE TABLE Department (
+  2  id NUMBER(3) PRIMARY KEY,
+  3  name VARCHAR2(10),
+  4  location VARCHAR2(15)
+  5  );
+
+Table created.
+SQL> CREATE TABLE Employees (
+  2  id NUMBER(5) PRIMARY KEY,
+  3  name VARCHAR2(15),
+  4  designation VARCHAR2(30),
+  5  department_id number(3),
+  6  salary NUMBER(12, 2),
+  7  CONSTRAINTS fk_dept_id FOREIGN KEY(department_id) REFERENCES Department(id)
+
+  8  );
+
+Table created.
